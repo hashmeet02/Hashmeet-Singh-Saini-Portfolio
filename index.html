@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hashmeet Singh Saini | Software Engineer & Web Designer</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="app.js" defer></script>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <div id="title">SOFTWARE ENGINEER . WEB DESIGNER . GRAPHIC DESIGNER</div>
+                <nav id="menu">
+                    <button id="homeBtn">
+                        <a class="nav-link" href="#header">HOME</a>
+                    </button>
+                    <button id="aboutBtn">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </button>
+                    <button id="contactBtn">
+                        <a class="nav-link" href="#contactForm">CONTACT ME</a>
+                    </button>
+                </nav>
+            </div>
+            <img src="media/logo3.png" id="logo" alt="Hashmeet Singh Saini logo" class="center">
+        </header>
+        <main>
+            <img id= "myPic" src="media/MyPicture.jpg" alt="Hashmeet Singh Picture" class="center">
+            <button class="center" id="resume">
+                <a href="./resume.pdf" id="resumeLink" download>RESUME</a>
+            </button>
+            <section id="about">
+                <div id="infograph">
+                    <div id="honesty">
+                        <h2>About Me and Academic Honesty</h2>
+                        <p>
+                        I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+
+                        I also declare that no part of this assignment has been distributed to other students.
+                        </p>
+                    </div>
+                    <div id="basicInfo">
+                        <h2>Basic information</h2>
+                        <table>
+                            <tr>
+                                <td>AGE: </td>
+                                <td>19</td>
+                            </tr>
+                            <tr>
+                                <td>EMAIL: </td>
+                                <td>hashmeetsingh.saini@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>LANGUAGE: </td>
+                                <td>English, Punjabi, Hindi</td>
+                            </tr>
+                            <tr>
+                                <td>Class Section: </td>
+                                <td>NFF</td>
+                            </tr>
+                            <tr>
+                                <td>Student ID: </td>
+                                <td>153070214</td>
+                            </tr>
+                            <tr>
+                                <td>INSTRUCTOR: </td>
+                                <td>Dr. Muath Alzghool</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="education">
+                    <h2>Education</h2>
+                    <div class="edu">
+                        <div class="left">
+                            <h4>Advanced Diploma</h4>
+                            <span>2022- 2024 (expected)</span>
+                        </div>
+                        <div class="right">
+                            <h3>Computer Programming And Analysis</h3>
+                            <h5>SENECA COLLEGE</h5>
+                            <span>
+                                3 year Diploma with 6 months of co-op experience. Passed with Honours
+                            </span>
+                        </div>
+                    </div>
+                    <div class="edu">
+                        <div class="left">
+                            <h4>High School Diploma</h4>
+                            <span>2007- 2021</span>
+                        </div>
+                        <div class="right">
+                            <h3>High School Diploma in Science</h3>
+                            <h5>NEO CONVENT SENIOR SECONDARY SCHOOL</h5>
+                            <span>
+                                12 years of high School Diploma with senior secondary major in science. Passed with Honours.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="contactForm">
+                    <h2>Contact Me</h2>
+                    <form id="contact-form" action="https://httpbin.org/post" method="post">
+                        <div class="row">
+                            <div class="form-group col">
+                                <label for="name"><span class="red">*</span> First Name</label>
+                                <input
+                                    id="name"
+                                    name="name"
+                                    class="form-control"
+                                    autocomplete="name"
+                                    type="text"
+                                    required
+                                >
+                            </div>
+                            <div class="form-group col">
+                                <label for="email"><span class="red">*</span> Email Address</label>
+                                <input
+                                  id="email"
+                                  class="form-control"
+                                  name="email"
+                                  autocomplete="email"
+                                  type="email"
+                                  required
+                                >
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col">
+                                <label for="address"><span class="red">*</span> Street Address</label>
+                                <input
+                                    id="address"
+                                    class="form-control"
+                                    name="address"
+                                    autocomplete="street-address"
+                                    type="text"
+                                    required
+                                >
+                            </div>
+                            <div class="form-group col">
+                                <label for="city">City</label>
+                                <input class="form-control" list="cityopts" name="city" id="city">
+                                <datalist id="cityopts">
+                                    <option value="Toronto">
+                                    <option value="Montreal">
+                                    <option value="Calgary">
+                                    <option value="Ottawa">
+                                    <option value="Edmonton">
+                                    <option value="Winnipeg">
+                                    <option value="Mississauga">
+                                    <option value="Vancouver">
+                                    <option value="Brampton">
+                                    <option value="Hamilton">
+                                </datalist>                           
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="form-group col">
+                                <label for="province"><span class="red">*</span> Province</label>
+                                <select
+                                  id="province"
+                                  class="form-control"
+                                  name="province"
+                                  autocomplete="address-level1"
+                                  tabindex="5"
+                                >
+                                  <option>Alberta</option>
+                                  <option>British Columbia</option>
+                                  <option>Manitoba</option>
+                                  <option>New Brunswick</option>
+                                  <option>Newfoundland and Labrador</option>
+                                  <option>Northwest Territories</option>
+                                  <option>Nova Scotia</option>
+                                  <option>Nunavut</option>
+                                  <option selected>Ontario</option>
+                                  <option>Prince Edward Island</option>
+                                  <option>Quebec</option>
+                                  <option>Saskatchewan</option>
+                                  <option>Yukon</option>
+                                </select> 
+                            </div>
+                            <div class="form-group col">
+                                <label for="postal-code"><span class="red">*</span> Postal Code</label>
+                                <input
+                                  id="postal-code"
+                                  class="form-control"
+                                  name="post-code"
+                                  autocomplete="postal-code"
+                                  type="text"
+                                  placeholder="M5W 1E6"
+                                  pattern="^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$"
+                                  required
+                                >
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col">
+                                <label class="mr-3">Query Type</label>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" id="question" name="queryType" value="question" checked >
+                                    <label for="question">Question</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" id="comment" name="queryType" value="comment" >
+                                    <label for="comment">Comment</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" id="hiring" name="queryType" value="hiring" >
+                                    <label for="hiring">Hiring</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id= "hrdiv" class="form-group col hide">
+                                <label for="hourRate"><span class="red ">*</span> Hourly Rate</label>
+                                <input
+                                    id="hourRate"
+                                    class="form-control"
+                                    name="hourRate"
+                                    type="number"
+                                >
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col">
+                                <div class="form-group col">
+                                    <label for="feedback-file">Message</label>
+                                    <textarea
+                                      id="message"
+                                      name="message"
+                                      class="form-control"
+                                      rows="5"
+                                    ></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="formButtons" class="d-flex flex-row-reverse mt-2">
+                            <button type="submit" value="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                            
+                          </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

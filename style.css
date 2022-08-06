@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    width: 95%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ @media(max-width: 480px){
+    html,body{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #myPic{
+        border-top: 3px solid black;
+        margin-bottom: 1em;
+        max-width: 100%;
+    }
+    .edu{
+        flex-direction: column;
+        padding:0.5em;
+        align-items: center;
+    }
+    .left{
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .right{
+        align-items: center;
+    }
+ }
+ @media(max-width:700px){
+    #infograph{
+        flex-direction: column;
+    }
+ }
+header #header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+    color:rgb(0, 0, 0);
+}
+header{
+    margin-top: 5px;
+}
+#title{
+    font-size: 1em;
+}
+nav button{
+    background-color: white;
+    border: 0;
+}
+
+a{
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+a:hover
+{
+    color: white;
+}
+
+nav button:hover{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+
+#myPic{
+    border-top: 3px solid black;
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 600px;
+}
+#logo{
+    width: 100%;
+    max-width: 675px;
+
+}
+
+#infograph{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+#honesty, #basicInfo{
+    margin: 2em;
+}
+#education{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    padding: 1em;
+    
+}
+
+.edu{
+    margin: 0.5em;
+    display: inline-flex;
+}
+
+.left{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    min-width: 170px;
+    padding: 1em;
+    margin-right: 2em;
+}
+
+.right h3, .right h3{
+    margin: 0.3em;
+
+}
+
+.right h5, .right h5{
+    margin: 0.3em;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contactForm{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 1em;
+  }
+
+  #resume{
+    border-radius: 50px;
+    background-color: white;
+    padding: 0;
+    width:150px;
+    margin-bottom: 2em;
+  }
+  
+  #resumeLink{
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+  #resumeLink:hover{
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+  #resume:hover{
+    background-color: black;
+  }
+
+  .hide{
+    display: none;
+  }
+
+ #formButtons button{
+    background-color: black;
+    color: white;
+    margin-inline: 0.5em;
+    border: black 1px solid;
+  }
+  #formButtons button:hover{
+    border: white 1px solid;
+    border-radius: 5px;
+  }
+
+
