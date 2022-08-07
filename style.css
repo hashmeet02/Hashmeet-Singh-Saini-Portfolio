@@ -53,26 +53,19 @@ header{
 #title{
     font-size: 1em;
 }
-nav button{
+#menu a{
     background-color: white;
-    border: 0;
-}
-
-a{
     color: black;
-    font-size: 1.5em;
+    border:0;
     text-decoration: none;
 }
-a:hover
+
+#menu a:hover
 {
     color: white;
+    background-color: black;
 }
 
-nav button:hover{
-    background-color: black;
-    border-radius: 10px;
-    color: white;
-}
 
 
 #myPic{
@@ -145,23 +138,27 @@ nav button:hover{
   }
 
   #resume{
+    border: 2px solid black;
     border-radius: 50px;
     background-color: white;
     padding: 0;
     width:150px;
     margin-bottom: 2em;
+    text-align: center;
   }
   
   #resumeLink{
     color: black;
     font-size: 1.5em;
     text-decoration: none;
+
   }
 
   #resumeLink:hover{
     color: white;
     font-size: 1.5em;
     text-decoration: none;
+
   }
 
   #resume:hover{
